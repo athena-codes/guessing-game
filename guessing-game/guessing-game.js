@@ -1,6 +1,6 @@
 
-document.bgColor = "tomato"
-let secretNumber = Math.floor(Math.random() * 10)
+document.bgColor = "purple"
+let secretNumber = Math.floor(Math.random() * 100)
 
 const checkGuess = () => {
     let num = parseInt(document.getElementById("input").value)
